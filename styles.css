@@ -171,6 +171,7 @@ body {
     font-size: 36px;
     color: #1f2937;
     padding: 1rem;
+    text-align: center;
 }
 
 /* Flex displaying the third section */
@@ -215,4 +216,54 @@ body {
     font-weight: bold;
     color: #1f2937;
     margin-top: 0.5rem;
+}
+
+/* Flex displaying the fourth section */
+
+.section4 {
+    display: flex;
+    width: 70%;    
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+    padding: 1rem;
+    width: 95%;
+}
+
+
+/* Section 4 styling */
+
+.action-container {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 15px;
+}
+
+.section4 .action {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section4 button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+.section4 button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    transition-duration: 50ms;
 }
