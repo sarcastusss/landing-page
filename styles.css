@@ -75,6 +75,11 @@ body {
     font-size: 18px;
 }
 
+.header ul li a:hover {
+    color: #3882f6;
+    transition-duration: 0.3s;
+}
+
 .hero-text {
     color: #e5e7eb;
     font-size: 18px;
@@ -116,7 +121,8 @@ body {
 .hero button:hover {
     color: #3882f6;
     background-color: #f9faf8;
-    transition-duration: 50ms;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 /* Flex displaying the second section */
@@ -260,10 +266,23 @@ body {
     font-size: 16px;
     font-weight: bold;
     padding: 8px 20px;
+    width: 120px;
 }
 
 .section4 button:hover {
     background-color: #f9faf8;
     color: #3882f6;
-    transition-duration: 50ms;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* Flex and styling of the Footer section */
+
+.footer {
+    min-height: 50px;
+    width: 100%;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
